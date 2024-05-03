@@ -1,4 +1,4 @@
-SPTR-ItemConfig is a simple tool to edit item configuration files for the amazing mod [SPT Realism ](https://github.com/space-commits/SPT-Realism-Mod-Server) created by space-commits. Go check it out if you have not already.
+SPTR-ItemConfig is a simple tool to edit item configuration files for the amazing mod [SPT Realism](https://github.com/space-commits/SPT-Realism-Mod-Server) created by space-commits. Go check it out if you have not already.
 
 You MUST have Python installed in order to run this script. I have not yet worked out compiling it into an executable.
 
