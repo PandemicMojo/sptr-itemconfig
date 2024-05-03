@@ -6,7 +6,20 @@ import os
 
 # Defined functions
 
-# JSON shit
+# PyInstaller EXE doesn't play nice if I don't do this
+#def IsFrozen():
+#    if getattr(sys, "frozen", False):
+#        return
+#
+#    file_dir = os.path.dirname(sys.argv[0])
+#    
+#    try:
+#        os.chdir(file_dir)
+#    except OSError:  # Fail-safe
+#        pass
+## None of that shit works. Leaving it in here until I figure it out.
+
+# JSON defs
 def load_data(file_path):
     with open(file_path, 'r') as file:
         data = json.load(file)
